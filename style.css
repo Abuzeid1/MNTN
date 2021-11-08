@@ -181,6 +181,8 @@ section {
     top: 60vh;
   }
   .section-1 > .content {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
   }
 }
