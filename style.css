@@ -86,12 +86,10 @@ section {
 
 .section-1 {
   height: 150vh;
-  max-height: 62.5rem;
 }
 /* background */
 .section-1 .background {
   height: 140vh;
-  max-height: 62.5rem;
 }
 .section-1 .background img {
   width: 130vw;
@@ -172,7 +170,17 @@ section {
   line-height: 4.35rem;
   max-width: 18ch;
 }
-
+@media (max-width: 500px) {
+  .section-1 {
+    height: 130vh;
+  }
+  .section-1 .background {
+    height: 100vh;
+  }
+  .section-1::after {
+    height: 70vh;
+  }
+}
 @media (min-width: 765px) {
   .section-1 > .navbar {
     margin-bottom: 6rem;
