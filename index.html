@@ -193,4 +193,17 @@
       </ul>
     </section>
   </body>
+  <script>
+    const parent = document.querySelector(".section-1");
+    const child = document.querySelector(".section-1 > .content");
+    const FirstOffsetBottom =
+      parent.clientHeight - child.clientHeight - child.offsetTop;
+
+    document.addEventListener("scroll", changeOpacity);
+    function changeOpacity() {
+      let offsetBottom =
+        parent.clientHeight - child.clientHeight - child.offsetTop;
+      child.style.opacity = offsetBottom / FirstOffsetBottom;
+    }
+  </script>
 </html>
