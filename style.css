@@ -175,10 +175,18 @@ section {
     height: 130vh;
   }
   .section-1 .background {
-    height: 100vh;
+    height: 120vh;
   }
   .section-1::after {
     height: 70vh;
+  }
+  .section-1 > .background > .image-2 {
+    top: unset;
+    bottom: 10vh;
+  }
+  .section-1 > .background > .image-3 {
+    top: unset;
+    bottom: 0;
   }
 }
 @media (min-width: 765px) {
