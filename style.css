@@ -86,10 +86,12 @@ section {
 
 .section-1 {
   height: 150vh;
+  max-height: 90rem;
 }
 /* background */
 .section-1 .background {
   height: 140vh;
+  max-height: 70rem;
 }
 .section-1 .background img {
   width: 130vw;
@@ -120,17 +122,18 @@ section {
 }
 
 .section-1 .background .image-2 {
-  top: 40vh;
+  top: 25%;
 }
 .section-1 .background .image-3 {
   z-index: 2;
-  top: 70vh;
+  top: 50%;
 }
 .section-1::after {
   content: "";
   position: absolute;
-  height: 90vh;
+  height: 0;
   width: 100%;
+  height: 50%;
   z-index: 5;
   bottom: 0;
   background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0b1d26 61.38%);
@@ -172,17 +175,20 @@ section {
 }
 @media (max-width: 500px) {
   .section-1 {
-    height: 130vh;
+    height: 120vh;
   }
   .section-1 .background {
-    height: 120vh;
+    height: 100vh;
+  }
+  .section-1 > .background > img {
+    width: 200%;
+    left: -20vw;
   }
   .section-1::after {
     height: 70vh;
   }
   .section-1 > .background > .image-2 {
-    top: unset;
-    bottom: 10vh;
+    top: 30%;
   }
   .section-1 > .background > .image-3 {
     top: unset;
@@ -198,10 +204,10 @@ section {
     left: 0;
   }
   .section-1 > .background > .image-2 {
-    top: 25vh;
+    bottom: 0;
   }
   .section-1 > .background > .image-3 {
-    top: 60vh;
+    bottom: -10%;
   }
   .section-1 > .content {
     width: -webkit-fit-content;
