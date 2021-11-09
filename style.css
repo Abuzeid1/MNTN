@@ -86,10 +86,12 @@ section {
 
 .section-1 {
   height: 150vh;
+  max-height: 62.5rem;
 }
 /* background */
 .section-1 .background {
   height: 140vh;
+  max-height: 62.5rem;
 }
 .section-1 .background img {
   width: 130vw;
