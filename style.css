@@ -154,13 +154,9 @@ body {
 .header-image {
   position: absolute;
   display: block;
- 
 
-   height: max(
-    calc( min(var(--max-width), 100vw)) / (var(--aspect-ratio))),
-    calc(var(--w-min) / (var(--aspect-ratio)))
-  );
-
+  height: max(calc(min(var(--max-width), 100vw)) / (var(--aspect-ratio))),
+    calc(var(--w-min) / (var(--aspect-ratio)));
 }
 .header-image img {
   -o-object-fit: cover;
@@ -170,13 +166,11 @@ body {
 }
 .header-image-1 {
   --aspect-ratio: 360/284;
- 
 }
 
 .header-image-2 {
   --aspect-ratio: 360/267;
   top: 42%;
-
 }
 
 .header-image-3 {
