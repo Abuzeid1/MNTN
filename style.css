@@ -226,7 +226,7 @@ body {
 /* 1440px */
 @media (min-width: 1440px) {
   .header {
-    --ar-figure: 1920/2135;
+    --ar-figure: 1920/2120;
   }
   .header-image-2 {
     top: 23%;
@@ -241,7 +241,7 @@ body {
 /* 1920px */
 @media (min-width: 1920px) {
   .header {
-    --ar-figure: 1920/2000;
+    --ar-figure: 1920/1990;
   }
   .header-image-2 {
     top: 18%;
@@ -352,6 +352,7 @@ body {
 .card-item {
   margin: 5rem auto 12.5rem auto;
   position: relative;
+  width: max-content;
 }
 .card-item::before {
   counter-increment: section;
@@ -376,7 +377,7 @@ body {
   font-size: var(--font-size-3);
   line-height: var(--line-height-1);
   font-weight: 700;
-  max-width: 61.5ch;
+  max-width: 54ch;
 }
 
 .card-yellow-arrow {
