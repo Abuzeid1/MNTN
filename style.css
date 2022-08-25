@@ -154,16 +154,24 @@ body {
 .header-image {
   position: absolute;
   display: block;
-
-  height: max(calc(min(var(--max-width), 100vw)) / (var(--aspect-ratio))),
-    calc(var(--w-min) / (var(--aspect-ratio)));
+  width: 100%;
+  height: calc(
+    max(var(--w-min), min(var(--max-width), 100vw)) / (var(--aspect-ratio))
+  );
 }
+
 .header-image img {
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: left;
-  object-position: left;
+
+  object-position: 30% 0;
 }
+@media (min-width: 720px) {
+  .header-image img {
+    object-position: left;
+  }
+}
+
 .header-image-1 {
   --aspect-ratio: 360/284;
 }
