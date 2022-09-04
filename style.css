@@ -164,10 +164,13 @@ body {
   -o-object-fit: cover;
   object-fit: cover;
 
+  -o-object-position: 30% 0;
+
   object-position: 30% 0;
 }
 @media (min-width: 720px) {
   .header-image img {
+    -o-object-position: left;
     object-position: left;
   }
 }
@@ -297,9 +300,12 @@ body {
 
 /*  content */
 .header-content {
+  position: -webkit-sticky;
   position: sticky;
   top: calc(0.12 * var(--h-figure));
   z-index: 2;
+  width: -webkit-min-content;
+  width: -moz-min-content;
   width: min-content;
 }
 .content-header {
@@ -352,7 +358,6 @@ body {
 .card-item {
   margin: 5rem auto 12.5rem auto;
   position: relative;
-  width: max-content;
 }
 .card-item::before {
   counter-increment: section;
