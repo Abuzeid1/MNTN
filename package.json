@@ -1,0 +1,25 @@
+{
+  "name": "mntn",
+  "version": "1.0.0",
+  "description": "",
+  "source": "/src/index.html",
+  "scripts": {
+    "start": "parcel watch",
+    "build": "parcel build --dist-dir public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abuzeid1/MNTN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abuzeid1/MNTN/issues"
+  },
+  "homepage": "https://github.com/Abuzeid1/MNTN#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "sharp": "^0.29.3"
+  }
+}

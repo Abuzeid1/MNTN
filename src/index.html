@@ -8,7 +8,7 @@
       name="description"
       content="landing page designed by Kryston Schwarze & developed by Ahmed Abuzeid"
     />
-    <link rel="stylesheet" href="./style.min.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>MNTN</title>
   </head>
 
@@ -17,42 +17,51 @@
       <header class="header">
         <figure class="header-background">
           <picture class="header-image header-image-1">
-            <source media="(max-width: 720px)" srcset="./images/hg-720.webp" />
+            <source
+              media="(max-width: 720px)"
+              srcset="./images/hg.png?as=webp&width=720"
+            />
             <source
               media="(max-width: 1080px)"
-              srcset="./images/hg-1080.webp"
+              srcset="./images/hg.png?as=webp&width=1080"
             />
             <source
               media="(max-width: 1440px)"
-              srcset="./images/hg-1440.webp"
+              srcset="./images/hg.png?as=webp&width=720"
             />
-            <img src="./images/hg-1920.webp" alt="" />
+            <img src="./images/hg.png?as=webp&width=720" alt="" />
           </picture>
 
           <picture class="header-image header-image-2">
-            <source media="(max-width: 720px)" srcset="./images/mg-720.webp" />
+            <source
+              media="(max-width: 720px)"
+              srcset="./images/mg.png?as=webp&width=720"
+            />
             <source
               media="(max-width: 1080px)"
-              srcset="./images/mg-1080.webp"
+              srcset="./images/mg.png?as=webp&width=1080"
             />
             <source
               media="(max-width: 1440px)"
-              srcset="./images/mg-1440.webp"
+              srcset="./images/mg.png?as=webp&width=1440"
             />
-            <img src="./images/mg-1920.webp" alt="" />
+            <img src="./images/mg.png?as=webp&width=1920" alt="" />
           </picture>
 
           <picture class="header-image header-image-3">
-            <source media="(max-width: 720px)" srcset="./images/lg-720.webp" />
+            <source
+              media="(max-width: 720px)"
+              srcset="./images/lg.png?as=webp&width=720"
+            />
             <source
               media="(max-width: 1080px)"
-              srcset="./images/lg-1080.webp"
+              srcset="./images/lg.png?as=webp&width=1080"
             />
             <source
               media="(max-width: 1440px)"
-              srcset="./images/lg-1440.webp"
+              srcset="./images/lg.png?as=webp&width=1440"
             />
-            <img src="./images/lg-1920.webp" alt="" />
+            <img src="./images/lg.png?as=webp&width=1920" alt="" />
           </picture>
         </figure>
 
@@ -87,11 +96,7 @@
           <span class="content-scroll">
             scroll down
             <picture>
-              <img
-                class=""
-                src="./images/arrow_downward_24px-optimized.svg"
-                alt=""
-              />
+              <img class="" src="./images/arrow_downward_24px.svg" alt="" />
             </picture>
           </span>
         </div>
@@ -102,9 +107,20 @@
         <!-- card 1 -->
         <div class="main-content-card">
           <picture class="card-image">
-            <source media="(max-width: 360px)" srcset="./images/01-360.webp" />
+            <source
+              media="(max-width: 360px)"
+              srcset="./images/01.png?as=webp&width=255"
+            />
+            <source
+              media="(max-width: 1080px)"
+              srcset="./images/01.png?as=webp&width=600"
+            />
 
-            <img loading="lazy" src="./images/01-720.webp" alt="" />
+            <img
+              loading="lazy"
+              src="./images/01.png?as=webp&height=720"
+              alt=""
+            />
           </picture>
 
           <div class="card-item">
@@ -132,8 +148,19 @@
         <!-- card 2 -->
         <div class="main-content-card">
           <picture class="card-image">
-            <source media="(max-width: 360px)" srcset="./images/02-720.webp" />
-            <img loading="lazy" src="./images/02-1080.webp" alt="" />
+            <source
+              media="(max-width: 360px)"
+              srcset="./images/02.jpeg?as=webp&height=320"
+            />
+            <source
+              media="(max-width: 1080px)"
+              srcset="./images/02.jpeg?as=webp&height=560"
+            />
+            <img
+              loading="lazy"
+              src="./images/02.jpeg?as=webp&hieght=720"
+              alt=""
+            />
           </picture>
 
           <div class="card-item">
@@ -159,12 +186,19 @@
         <!-- card 3 -->
         <div class="main-content-card">
           <picture class="card-image">
-            <source media="(max-width: 360px)" srcset="./images/03-720.webp" />
+            <source
+              media="(max-width: 360px)"
+              srcset="./images/03.png?as=webp&height=360"
+            />
             <source
               media="(max-width: 1080px)"
-              srcset="./images/03-1080.webp"
+              srcset="./images/03.png?as=webp&height=560"
             />
-            <img loading="lazy" src="./images/03-1440.webp" alt="" />
+            <img
+              loading="lazy"
+              src="./images/03.png?as=webp&height=720"
+              alt=""
+            />
           </picture>
 
           <div class="card-item">
@@ -221,5 +255,5 @@
       </footer>
     </main>
   </body>
-  <script async defer src="./index.min.js"></script>
+  <script async defer src="./index.js"></script>
 </html>
