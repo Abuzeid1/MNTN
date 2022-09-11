@@ -86,9 +86,8 @@ body {
 
 /* global classes */
 .section {
-  width: 90%;
-  max-width: 90rem;
-  margin: 0 auto;
+  width: min(90%, 90rem);
+  margin-inline: auto;
 }
 .yellow-line {
   color: var(--clr-2);
@@ -117,7 +116,7 @@ body {
   );
   max-width: 120rem;
   height: var(--h-figure);
-  margin: 0 auto;
+  margin-inline: auto;
   margin-bottom: 25rem;
   position: relative;
 }
@@ -309,8 +308,7 @@ body {
   width: min-content;
 }
 .content-header {
-  width: 18ch;
-  max-width: 90vw;
+  width: min(18ch, 90vw);
   font-family: var(--font-family-1);
   font-size: var(--font-size-4);
   line-height: var(--line-height-4);
@@ -343,7 +341,7 @@ body {
 .card-image {
   height: 20rem;
   width: 80%;
-  margin: 0 auto;
+  margin-inline: auto;
   display: block;
 }
 .main-content > .main-content-card:nth-child(2) .card-image img {
@@ -395,8 +393,7 @@ body {
 }
 @media (min-width: 360px) {
   .card-image {
-    width: 37.5rem;
-    max-width: 95%;
+    width: min(37.5rem, 95%);
     height: 35rem;
   }
 }
