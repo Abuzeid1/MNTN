@@ -15,7 +15,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Chronicle Display Semibold"),
-    url("./fonts/chronicle-display-cufonfonts-webfont/Chronicle Display Semibold.woff")
+    url("data-url:./fonts/chronicle-display-cufonfonts-webfont/Chronicle Display Semibold.woff")
       format("woff");
   font-display: swap;
 }
@@ -25,7 +25,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Chronicle Display Black"),
-    url("./fonts/chronicle-display-cufonfonts-webfont/Chronicle Display Black.woff")
+    url("data-url:./fonts/chronicle-display-cufonfonts-webfont/Chronicle Display Black.woff")
       format("woff");
   font-display: swap;
 }
@@ -35,9 +35,8 @@
   font-style: normal;
   font-weight: normal;
   src: local("Gilroy-Bold ☞"),
-    url("./fonts/gilroy-bold-cufonfonts-webfont/Gilroy-Bold.woff")
+    url("data-url:./fonts/gilroy-bold-cufonfonts-webfont/Gilroy-Bold.woff")
       format("woff");
-
   font-display: swap;
 }
 
@@ -47,7 +46,6 @@ img {
 }
 svg {
   vertical-align: middle;
-  height: 100%;
 }
 
 /* global variables */
@@ -281,6 +279,7 @@ body {
   padding: 2.5rem 0;
   display: flex;
   align-content: center;
+  align-items: center;
   gap: 2rem;
 }
 .nav-item {

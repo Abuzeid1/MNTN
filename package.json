@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "source": "/src/index.html",
+  "browserslist": "> 0.5%, last 5 versions, not dead",
   "scripts": {
     "start": "parcel watch",
     "build": "parcel build --dist-dir public"
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/Abuzeid1/MNTN#readme",
   "devDependencies": {
+    "@parcel/optimizer-data-url": "^2.7.0",
+    "@parcel/transformer-inline-string": "^2.7.0",
     "parcel": "^2.7.0",
     "sharp": "^0.29.3"
   }
