@@ -256,7 +256,9 @@ body {
 
 /* navbar */
 .header-navbar > * {
-  transition: 300ms ease-in-out;
+  transition-property: color, fill, transform;
+  transition-timing-function: ease-in-out;
+  transition-duration: 300ms;
   cursor: pointer;
   fill: #fff;
   color: #fff;
