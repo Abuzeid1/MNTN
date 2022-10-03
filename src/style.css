@@ -15,9 +15,9 @@
   font-style: normal;
   font-weight: normal;
   src: local("Chronicle Display Semibold"),
-    url("data-url:./fonts/chronicle-display-cufonfonts-webfont/Chronicle Display Semibold.woff")
+    url("./fonts/chronicle-display-cufonfonts-webfont/Chronicle Display Semibold.woff")
       format("woff");
-  font-display: swap;
+  font-display: optional;
 }
 
 @font-face {
@@ -25,9 +25,9 @@
   font-style: normal;
   font-weight: normal;
   src: local("Chronicle Display Black"),
-    url("data-url:./fonts/chronicle-display-cufonfonts-webfont/Chronicle Display Black.woff")
+    url("./fonts/chronicle-display-cufonfonts-webfont/Chronicle Display Black.woff")
       format("woff");
-  font-display: swap;
+  font-display: optional;
 }
 
 @font-face {
@@ -35,9 +35,9 @@
   font-style: normal;
   font-weight: normal;
   src: local("Gilroy-Bold ☞"),
-    url("data-url:./fonts/gilroy-bold-cufonfonts-webfont/Gilroy-Bold.woff")
+    url("./fonts/gilroy-bold-cufonfonts-webfont/Gilroy-Bold.woff")
       format("woff");
-  font-display: swap;
+  font-display: optional;
 }
 
 img {
